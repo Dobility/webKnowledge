@@ -6,6 +6,8 @@
 
 ## [React中性能优化](React中性能优化.md)
 
+## [React与Vue区别](react与vue区别.md)
+
 ### React 的工作原理
 
 React 会创建一个虚拟 DOM(virtual DOM)。当一个组件中的状态改变时，React 首先会通过 "diffing" 算法来标记虚拟 DOM 中的改变，第二步是调节(reconciliation)，会用 diff 的结果来更新 DOM。
@@ -206,7 +208,7 @@ SSR带来的问题：
 
 一个输入表单元素，它的值通过 React 的这种方式来控制，这样的元素就被称为"受控元素"。
 
-在 HTML 中，类似 <input>, <textarea> 和 <select> 这样的表单元素会维护自身的状态，并基于用户的输入来更新。但在 React 中会有些不同，包含表单元素的组件将会在 state 中追踪输入的值。
+在 HTML 中，类似 `<input>`, `<textarea>` 和 `<select>` 这样的表单元素会维护自身的状态，并基于用户的输入来更新。但在 React 中会有些不同，包含表单元素的组件将会在 state 中追踪输入的值。
 
 
 ### 除了在构造函数中绑定 this，还有其它方式吗

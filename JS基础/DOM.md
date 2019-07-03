@@ -7,9 +7,13 @@
  - Event 对象的常见应用
  - 自定义事件
 
-[DOMDOM概述 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)
+[DOM概述 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)
 
 [DOM | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Element)
+
+[DOM操作](https://blog.csdn.net/Night_Emperor/article/details/78471051)
+
+
 
 ### DOM事件级别
  - DOM0
@@ -60,7 +64,7 @@ DOM标准规定事件流包括三个阶段：
    - 阻止默认行为
    - event.cancelBubble()和event.preventBubble 都已经废弃
  - event.stopPropagation()
-   - 阻止事件冒泡
+   - 阻止在捕获阶段或冒泡阶段继续传播，而不是阻止冒泡
  - event.stopImmediatePropagation()
    - 阻止事件冒泡并且阻止相同事件的其他侦听器被调用。
 
